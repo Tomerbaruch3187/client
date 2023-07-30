@@ -1,7 +1,7 @@
-import './App.css';
-import Avatar from './components/Avatar';
-import Intro from './components/Intro';
-import SkillList from './components/SkillsComp/SkillList';
+import "./App.css";
+import Avatar from "./components/Avatar";
+import Intro from "./components/Intro";
+import SkillList from "./components/SkillsComp/SkillList";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
 
         <SkillList />
       </div>
-    </div >
+    </div>
   );
 }
 

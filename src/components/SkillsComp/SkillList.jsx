@@ -1,12 +1,12 @@
 import Skill from "./Skill";
+import skillsData from "./SkillsData";
 
 export default function SkillList() {
   return (
     <div className="skill-list">
-      <Skill skill="REACT" emoji="😐" color="red" />
-      <Skill skill="HTML" emoji="🥱" color="orange" />
-      <Skill skill="CSS" emoji="😁" color="yellow" />
-      <Skill skill="JS" emoji="🤑" color="orangered" />
+      {skillsData.map((skill) => (
+        <Skill skill={skill.skill} color={skill.color} level={skill.level} />
+      ))}
     </div>
   );
 }
