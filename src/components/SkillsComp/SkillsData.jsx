@@ -11,11 +11,11 @@ const skillsData = [
   },
   {
     skill: "Web Design",
-    level: "advanced",
+    level: "beginner",
     color: "#C3DCAF",
   },
   {
-    skill: "Git and GitHub",
+    skill: "GitHub",
     level: "intermediate",
     color: "#E84F33",
   },
@@ -23,11 +23,6 @@ const skillsData = [
     skill: "React",
     level: "advanced",
     color: "#60DAFB",
-  },
-  {
-    skill: "Svelte",
-    level: "beginner",
-    color: "#FF3B00",
   },
 ];
 
